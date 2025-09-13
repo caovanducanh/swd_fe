@@ -95,12 +95,6 @@ const BranchSelector: React.FC<BranchSelectorProps> = ({ onBranchSelected }) => 
                     📍 {branch.address}
                   </Text>
                 </div>
-                
-                <div style={{ marginBottom: "1.5rem", textAlign: "center" }}>
-                  <Text type="secondary" style={{ fontSize: "0.85rem" }}>
-                    👥 {branch.allowedEmails.length} email được phép
-                  </Text>
-                </div>
               </div>
               
               <Button

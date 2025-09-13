@@ -4,7 +4,6 @@ export interface Branch {
   name: string;
   code: string;
   address: string;
-  allowedEmails: string[];
   active: boolean;
   createdAt: string;
 }

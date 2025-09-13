@@ -74,12 +74,6 @@ const BranchManagement: React.FC = () => {
       ),
     },
     {
-      title: "Số email được phép",
-      dataIndex: "allowedEmails",
-      key: "allowedEmails",
-      render: (emails: string[]) => emails.length,
-    },
-    {
       title: "Thao tác",
       key: "action",
       render: (_: any, record: Branch) => (
